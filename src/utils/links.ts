@@ -46,6 +46,14 @@ export const AboutWebsite = [
             "A React framework that simplifies the development of fast, dynamic web applications.",
     },
     {
+        href: "https://www.typescriptlang.org/",
+        svg: "/typscript.svg",
+        alt: "TypeScript Icon",
+        title: "TypeScript",
+        description:
+            "A superset of JavaScript, adding static typing to enhance code quality and developer experience.",
+    },
+    {
         href: "https://tailwindcss.org/",
         svg: "/tailwind.svg",
         alt: "Tailwindcss Icon",
