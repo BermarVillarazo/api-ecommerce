@@ -47,7 +47,7 @@ export const AboutWebsite = [
     },
     {
         href: "https://www.typescriptlang.org/",
-        svg: "/typscript.svg",
+        svg: "/typescript.svg",
         alt: "TypeScript Icon",
         title: "TypeScript",
         description:
