@@ -51,7 +51,7 @@ export const AboutWebsite = [
         alt: "Tailwindcss Icon",
         title: "Tailwindcss",
         description:
-            "A React framework that simplifies the development of fast, dynamic web applications.",
+            "A utility-first CSS framework enabling streamlined design and responsive layouts.",
     },
     {
         href: "/about",
@@ -59,7 +59,7 @@ export const AboutWebsite = [
         alt: "Responsive Icon",
         title: "Responsive",
         description:
-            "A React framework that simplifies the development of fast, dynamic web applications.",
+            "Designs optimized for diverse screen sizes, ensuring a seamless user experience.",
     },
     {
         href: "https://ui.aceternity.com/",
@@ -67,7 +67,7 @@ export const AboutWebsite = [
         alt: "Aceternity Icon",
         title: "Aceternity",
         description:
-            "Ensuring optimal user experience across various devices by adapting the layout to different screen sizes.",
+            "A UI library tailored for Aeternity blockchain development, enhancing visual components.",
     },
     {
         href: "https://wind-ui.com/",
@@ -91,7 +91,7 @@ export const AboutWebsite = [
         alt: "Vercel Icon",
         title: "Vercel",
         description:
-            "A mock API serving as a placeholder for testing and demonstration, offering fictitious product and user data.",
+            "The hosting platform for this Next.js website, ensuring fast and scalable deployment.",
     },
     {
         href: "https://github.com/BermarVillarazo/api-ecommerce",
@@ -99,7 +99,7 @@ export const AboutWebsite = [
         alt: "Github Icon",
         title: "Github",
         description:
-            "A mock API serving as a placeholder for testing and demonstration, offering fictitious product and user data.",
+            "Repository hosting project files and source code, accessible via the GitHub icon.",
     },
 ] as const;
 
