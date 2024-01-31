@@ -6,7 +6,7 @@ export default async function SignIn() {
 
     return (
         <section className="flex flex-col gap-10 justify-center items-center pt-20 overflow-hidden mx-auto p-5">
-            <ReusableAlert isProductPage={false} />
+            <ReusableAlert isAccountPage={true} />
             <div className="w-full overflow-x-auto">
                 <table
                     className="w-full text-left border border-separate rounded border-slate-200"
