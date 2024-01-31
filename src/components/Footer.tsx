@@ -1,4 +1,4 @@
-import { aboutUs, docsAndHelp, getInTouch, subNavigation } from "@/utils/links";
+import { aboutUs, docsAndHelp, getInTouch, socialLinks, subNavigation } from "@/utils/links";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -92,12 +92,6 @@ function FooterCategories() {
 }
 
 function FooterSocials() {
-    const socialLinks = [
-        { href: "https://www.facebook.com/", src: "/facebook.svg", name: "Facebook Icon" },
-        { href: "https://twitter.com/", src: "/twitter.svg", name: "Twitter Icon" },
-        { href: "https://discord.com/", src: "/discord.svg", name: "Discord Icon" },
-    ];
-
     return (
         <nav
             aria-labelledby="footer-social-links-dark"

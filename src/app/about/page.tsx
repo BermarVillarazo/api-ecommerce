@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function About() {
     return (
         <section className="flex flex-wrap justify-center items-center gap-5 pt-40 h-full">
-            {AboutWebsite.map(({ href, svg, title, description }) => (
+            {AboutWebsite.map(({ href, svg, alt, title, description }) => (
                 <Link
                     key={title}
                     href={href}
@@ -16,7 +16,7 @@ export default function About() {
                     <div className="flex flex-col justify-center items-center gap-2.5">
                         <Image
                             src={svg}
-                            alt={`${title}'s Icon`}
+                            alt={alt}
                             width={100}
                             height={100}
                             priority

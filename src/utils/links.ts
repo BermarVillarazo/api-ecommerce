@@ -40,43 +40,76 @@ export const AboutWebsite = [
     {
         href: "https://nextjs.org/",
         svg: "/nextjs.svg",
-        title: "Nextjs Icon",
+        alt: "Nextjs Icon",
+        title: "Nextjs",
         description:
             "A React framework that simplifies the development of fast, dynamic web applications.",
     },
     {
         href: "https://tailwindcss.org/",
         svg: "/tailwind.svg",
-        title: "Tailwindcss Icon",
+        alt: "Tailwindcss Icon",
+        title: "Tailwindcss",
         description:
             "A React framework that simplifies the development of fast, dynamic web applications.",
     },
     {
         href: "/about",
         svg: "/responsive.svg",
-        title: "Responsive Icon",
+        alt: "Responsive Icon",
+        title: "Responsive",
         description:
             "A React framework that simplifies the development of fast, dynamic web applications.",
     },
     {
         href: "https://ui.aceternity.com/",
         svg: "/aceternity.svg",
-        title: "Aceternity Icon",
+        alt: "Aceternity Icon",
+        title: "Aceternity",
         description:
             "Ensuring optimal user experience across various devices by adapting the layout to different screen sizes.",
     },
     {
         href: "https://wind-ui.com/",
         svg: "/windui.svg",
-        title: "Windui Icon",
+        alt: "Windui Icon",
+        title: "Windui",
         description:
             "A lightweight and utility-first UI library that complements Tailwind CSS, enhancing the development of modern interfaces.",
     },
     {
         href: "https://fakestoreapi.com/",
         svg: "https://fakestoreapi.com/icons/logo.png",
-        title: "Fake Store API Icon",
+        alt: "Fake Store API Icon",
+        title: "Fake Store API",
         description:
             "A mock API serving as a placeholder for testing and demonstration, offering fictitious product and user data.",
+    },
+    {
+        href: "https://vercel.com/",
+        svg: "/vercel.svg",
+        alt: "Vercel Icon",
+        title: "Vercel",
+        description:
+            "A mock API serving as a placeholder for testing and demonstration, offering fictitious product and user data.",
+    },
+    {
+        href: "https://github.com/BermarVillarazo/api-ecommerce",
+        svg: "/github.svg",
+        alt: "Github Icon",
+        title: "Github",
+        description:
+            "A mock API serving as a placeholder for testing and demonstration, offering fictitious product and user data.",
+    },
+] as const;
+
+export const socialLinks = [
+    { href: "https://www.facebook.com/", src: "/facebook.svg", name: "Facebook Icon" },
+    { href: "https://twitter.com/", src: "/twitter.svg", name: "Twitter Icon" },
+    { href: "https://discord.com/", src: "/discord.svg", name: "Discord Icon" },
+    {
+        href: "https://github.com/BermarVillarazo/api-ecommerce",
+        src: "/githubFooter.svg",
+        name: "Github Icon",
     },
 ] as const;
