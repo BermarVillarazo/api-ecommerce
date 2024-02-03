@@ -5,6 +5,7 @@ import { redirect } from "next/navigation";
 
 export async function Logout() {
     cookies().delete("sessionId");
+    cookies().delete("sessionUser");
 
     redirect("/");
 }
